@@ -1,0 +1,125 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.preview-container1,
+.preview-container2,
+.preview-container3 {
+  width: 350px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.preview-container1 {
+  background-color: hsl(31, 77%, 52%);
+}
+.preview-container2 {
+  background-color: hsl(184, 100%, 22%);
+}
+.preview-container3 {
+  background-color: hsl(179, 100%, 13%);
+}
+.logo {
+  margin-left: 60px;
+  margin-top: 15px;
+  margin-bottom: -30px;
+  flex: 0.8;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-size: 30px;
+  margin-left: 60px;
+
+  flex: 0.5;
+  font-weight: 700;
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0, 0%, 95%);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.preview {
+  flex: 1;
+  margin-left: 60px;
+  margin-right: 60px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5em;
+}
+
+.buttons1,
+.buttons2,
+.buttons3 {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 35px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 50px;
+  cursor: pointer;
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+.buttons1 {
+  color: hsl(31, 77%, 52%);
+}
+.buttons2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.buttons3 {
+  color: hsl(179, 100%, 13%);
+}
+
+.button-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 60px;
+  flex: 1;
+}
+
+.buttons1:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+
+.buttons2:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+
+.buttons3:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
